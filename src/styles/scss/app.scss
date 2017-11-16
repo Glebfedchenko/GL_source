@@ -1,0 +1,131 @@
+@import './defaults.scss';
+@import './media.scss';
+
+/*Header*/
+#headersection{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:722px;
+
+    #allnav{
+        background: transparent;
+        border: 0;
+        margin: 0;
+    }
+    #headersubsection{
+        padding-top: 24px;
+    }
+
+    #heading{
+        margin-top: 200px;
+    }
+    #navbar {
+        border: 0;
+    }
+    li{
+        &:hover{
+            border-bottom: 1px solid #ccb8b8;
+        }
+    }
+    a{
+        padding: 14px;
+        color: #ffffff;
+        &:hover{
+            color: #ccb8b8;
+        }
+    }
+}
+/*About*/
+
+#aboutsection, #skillssection{
+    border-bottom: 1px solid #cccccc;
+    .avatar{
+        margin-top: 60px;
+    }
+    .mainabout, .mainskills{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .about{
+        font-size: 22px;
+    }
+    #aboutp{
+        font-size: 16px;
+    }
+    #aboutrow{
+        margin-bottom: 65px;
+    }
+}
+/*Skills*/
+.skillName{
+    font-size: 30px;
+    color: #333333;
+}
+.rate{
+    span{
+        padding: 5px;
+        margin-top: 6px;
+    }
+}
+.fa-circle{
+    height: 28px;
+    color: #333333;
+}
+.fa-circle.grey{
+    height: 28px;    
+    color: #9b9a9a;
+}
+/*Contact*/
+#contactsection{
+    margin-bottom: 90px;
+    p{
+        font-size: 15px;
+        color: #888888;
+    }
+    h5{
+        font-weight: bold;
+        margin-top: 0;
+        font-size: 15px;
+    }
+}
+#email,#name,{
+    //width: 60%;
+    border: 1px solid #919191;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+#message{
+    //width: 60%;
+    height: 89px;
+    border: 1px solid #919191;    
+    border-radius: 0;    
+    margin-bottom: 30px;
+}
+#button{
+    width: 165px;
+    height: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    font-size: 15px;
+    font-style: normal;
+}
+
+/*Footer*/
+
+#footersection{
+    background-color: #333333;
+    height: 173px;
+    color: #ffffff;
+}
+#footerinfo{
+    margin-top: 44px;
+    margin-bottom: 64px;
+    font-size: 15px;
+}
+#footerlogo{
+    margin-top: 53px;
+    margin-bottom: 74px;
+}

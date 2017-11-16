@@ -1,0 +1,29 @@
+$screen-xss:320px;
+$screen-xs:375px;
+$screen-ls:425px;
+
+@media (max-width: $screen-xss){
+    #fg{
+        font-size: 30px;
+    }
+    #fe{
+        font-size: 20px;
+    }
+
+}
+@media (max-width: $screen-xs){
+    #fg{
+        font-size: 30px;
+    }
+    #footerp{
+        font-size: 11px;
+    }
+    #heading{
+        margin-top: 0;
+    }
+}
+@media (max-width: $screen-ls){
+    #fg{
+        font-size: 35px;
+    }
+}
